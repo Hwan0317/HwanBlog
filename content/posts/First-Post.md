@@ -1,7 +1,7 @@
 ---
 title: '블로그 시작하기 (With.Hugo)'
 date: 2023-11-23T15:27:38+09:00
-draft: true
+draft: false
 ---
 
 # Hugo로 블로그 만들기
