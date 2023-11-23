@@ -97,7 +97,7 @@ hugo server
 http://localhost:1313 으로 접근해 블로그를 확인해본다.
 
 서버 실행 후 웹 브라우저 화면
-![image](/images/Hugo_Theme_Done.png)
+![image](/HwanBlog/images/Hugo_Theme_Done.png)
 
 잘 만들어진것을 볼 수 있다. 이제 이 웹 브라우저는 열어두고 블로그 작성을 진행하면 된다. 서버는 블로그 작업 공간 내의 파일이 수정, 추가, 삭제 되는 것을 감지해 자동으로 새로고침 된다. 이를 통해 수정사항이 문제 없이 반영 되는지 쉽게 확인할 수 있다.
 
@@ -115,11 +115,11 @@ hugo new content posts/my-first-post.md
 
 생성된 페이지
 
-![image](/images/genarated_post.png)
+![image](/HwanBlog/images/genarated_post.png)
 
 이제 제목, 소 제목,  본문과 앞으로 자주 사용하게 될 코드 셀 까지 아래처럼 추가 해 저장해본다.
 
-![image](/images/post_add_test.png)
+![image](/HwanBlog/images/post_add_test.png)
 
 이렇게 추가하고 얼어둔 서버를 통해 확인해보자. 아무런 변화가 없을 것 이다. 뭔가 잘못된 것이 아니라 오히려 잘 된 상태이다.
 
