@@ -2,3 +2,12 @@ baseURL = 'https://hwan0317.github.io/HwanBlog/'
 languageCode = 'ko-kr'
 title = "Hwan's Light Blog"
 theme = "paper"
+
+[params.giscus]
+  repo = 'Hwan0317/HwanBlog'                 # see https://giscus.app for more details
+  repoId = 'R_kgDOKxHOTQ'
+  category = 'Announcements'
+  categoryId = 'DIC_kwDOKxHOTc4CbNHq'
+  mapping = 'pathname'
+  theme = 'dark'
+  lang = 'ko'
