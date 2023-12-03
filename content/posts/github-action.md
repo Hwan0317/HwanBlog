@@ -23,35 +23,39 @@ Github Pages 를 선택한 이유는 여러가지가 있는데, 첫째로 이미
 
 GitHub Pages를 사용하려면 github에 repo가 생성되어있고, 해당 repo에 hugo 작업 공간이 push 되어있어야 한다. 이미 git을 통해 이미 작업 공간을 관리하고 있었기 때문에 GitHub repo를 생성하고 해당 repo에 작업 공간을 Push 하기만 하면 된다.
 
+GitHub repo가 생성되었다면 해당 Repo의 Settings -> Code and automation 의 Pages로 이동한다. 이동하면 아래와 같은 설정 화면이 보이게 된다.
+
+![image](/HwanBlog/images/Settings_Pages.png)
+
 github pages 초기 화면
 
-![image](/HwanBlog/images//github_action_Source_default.png)
+![image](/HwanBlog/images/github_action_Source_default.png)
 
 Source 원본을 GitHub Action으로 변경해준다. 변경하고 나면 아래와 같이 추천 workflow 템플릿을 띄워주는데, hugo를 선택하면 된다. 만일 추천에 hugo가 보이지 않는다면, github action으로 직접 이동해서, hugo를 검색, 선택해주면 된다.
 
-![image](/HwanBlog/images//github_action_hugo.png)
+![image](/HwanBlog/images/github_action_hugo.png)
 
 이 외에 custom domain등 별도의 설정을 추가적으로 할 수 있지만, 목적에 맞게 최대한 버튼을 적게 ~~'딸깍'~~ 누르고, 설정한다.
 
 ## GitHub Action 설정하기
 
-![image](/HwanBlog/images//github_action_webIDE.png)
+![image](/HwanBlog/images/github_action_webIDE.png)
 
 위에서 Hugo GitHub Action의 configure 버튼을 누르면 위와 같은 Web IDE에서 GitHub Action을 편집할 수 있게 되는데, 이 부분은 나중에 GitHub Action 자체를 다루는 포스팅  ~~희망사항~~ 을 통해서 알아보도록 하자.
 
 오른쪽 위에 보이는 `commit changes...` 버튼을 누르고, 이후 팝업에 커밋 메세지를 입력 한 뒤 커밋해주면, 변경사항이 Repo에 저장되고, 해당 커밋에 의한 Action이 실행되게 된다.
 
-![image](/HwanBlog/images//Run_Action.png)
+![image](/HwanBlog/images/Run_Action.png)
 
 Repo의 Action으로 이동하면 실행된 액션을 확인할 수 있다. Action에 대한 간단한 부가설명을 덧붙이자면, action.yml 파일에서 언제 Action이 실행될 지 정할 수 있고, 이번에 만든 hugo.yml파일은 main 브랜치에 push 가 발생하면 동작하도록 설정되어있다. 고로 앞으로는 git push를 하게되면 자동으로 배포가 이루어지게 된다.
 
 실행된 Action을 클릭해 들어가게 되면 아래와 같은 세부적인 실행 정보를 볼 수 있는데, deploy 부분에 링크가 해당 페이지가 배포된 링크를 보여주는 것이다 .
 
-![image](/HwanBlog/images//Action_Details.png)
+![image](/HwanBlog/images/Action_Details.png)
 
 클릭해 이동하면 정상적으로 배포된 GitHub Pages를 확인 할 수 있다.
 
-![image](/HwanBlog/images//deploied_pages.png)
+![image](/HwanBlog/images/deploied_pages.png)
 
 ## referance
 
