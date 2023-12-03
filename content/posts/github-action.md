@@ -21,6 +21,8 @@ Github Pages 를 선택한 이유는 여러가지가 있는데, 첫째로 이미
 
 ## GitHub Pages 설정하기
 
+GitHub Pages를 사용하려면 github에 repo가 생성되어있고, 해당 repo에 hugo 작업 공간이 push 되어있어야 한다. 이미 git을 통해 이미 작업 공간을 관리하고 있었기 때문에 GitHub repo를 생성하고 해당 repo에 작업 공간을 Push 하기만 하면 된다.
+
 github pages 초기 화면
 
 ![image](/HwanBlog/images//github_action_Source_default.png)
